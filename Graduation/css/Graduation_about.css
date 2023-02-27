@@ -1,0 +1,102 @@
+
+
+.banner img{
+    width: 100%;
+}
+
+.cardicon {
+    transform-style: preserve-3d;
+    margin-top: 50px !important;
+}
+
+.masthead {
+
+    background: linear-gradient(90deg, rgba(150, 88, 160, 1) 0, rgba(219, 153, 123, 1) 100%) url(/bg.jpg) !important;
+
+}
+
+.tab a {
+    background-color: white;
+}
+
+.tab a:hover {
+    background-color: #ddd;
+}
+
+.tab a.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    position: absolute;
+    top: 48%;
+}
+
+.tabcontent p {
+    width: 75%;
+
+}
+
+
+
+
+
+@media (max-width:998px) {
+    header h1 {
+        top: 20% !important;
+    }
+
+    .tabcontent {
+        top: 35% !important;
+    }
+
+    #bear {
+        top: 70% !important;
+        right: 2% !important;
+    }
+
+}
+
+@media (max-width:525px) {
+    header h1 {
+        top: 15% !important;
+    }
+
+    .tabcontent {
+        top: 28% !important;
+    }
+
+    .tabcontent h3 {
+        font-size: 16pt;
+    }
+
+    .tabcontent p {
+        font-size: 11pt;
+    }
+    
+            #bear {
+    top: 80% !important;
+    right: 2% !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 我打的 */
+.acttivity_intro{
+    margin: 30%;
+}
